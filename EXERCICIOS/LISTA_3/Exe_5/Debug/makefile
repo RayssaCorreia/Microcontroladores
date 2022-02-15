@@ -60,8 +60,8 @@ all: main-build
 main-build: Exe_5.elf secondary-outputs
 
 # Tool invocations
-Exe_5.elf: $(OBJS) $(USER_OBJS) /home/rayssa_correia/Documentos/Microcontroladores/Exe_5/STM32G0B1RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Exe_5.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/rayssa_correia/Documentos/Microcontroladores/Exe_5/STM32G0B1RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Exe_5.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Exe_5.elf: $(OBJS) $(USER_OBJS) /home/rayssa_correia/Documentos/Microcontroladores/Microcontroladores/EXERCICIOS/LISTA_3/Exe_5/STM32G0B1RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Exe_5.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/rayssa_correia/Documentos/Microcontroladores/Microcontroladores/EXERCICIOS/LISTA_3/Exe_5/STM32G0B1RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Exe_5.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

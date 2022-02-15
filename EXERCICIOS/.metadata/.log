@@ -1,0 +1,24 @@
+!SESSION 2022-02-15 14:25:02.200 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-02-15 14:26:05.069
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-02-15 14:26:05.120
+!MESSAGE Log4j initialized with config file /home/rayssa_correia/Documentos/Microcontroladores/Microcontroladores/EXERCICIOS/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-02-15 14:26:08.702
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-15 14:26:33.445
+!MESSAGE Indexed 'Exe_5' (22 sources, 104 headers) in 3,26 sec: 8.845 declarations; 33.284 references; 3 unresolved inclusions; 26 syntax errors; 171 unresolved names (0,4%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 2 2 2022-02-15 14:33:54.471
+!MESSAGE ST-LINK firmware verification, Check required failed
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 2 2 2022-02-15 14:33:54.472
+!MESSAGE ST-LINK firmware verification, No latest info found: -1
