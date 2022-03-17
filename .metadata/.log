@@ -1,0 +1,15 @@
+!SESSION 2022-03-17 13:37:35.360 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-17 13:37:53.804
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-17 13:37:53.857
+!MESSAGE Log4j initialized with config file /home/rayssa_correia/Documentos/Microcontroladores/Microcontroladores/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-17 13:37:57.927
+!MESSAGE Started RMI Server, listening on port 41337
